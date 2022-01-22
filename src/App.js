@@ -16,9 +16,7 @@ function App() {
       return previtems.filter((item,index)=>{
         return index !== id;
       })
-
     }
-    
     )
   }
   console.log(items);
